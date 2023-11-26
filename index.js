@@ -13,9 +13,9 @@ const Monitor = require('ping-monitor');
 for (const now of uptimelink) {
   const monitor = new Monitor({
     website: `${now}`,
-    title: 'Siegfried',
+    title: 'Kachi',
     interval: 10,
-  config: {
+  confi SGg: {
     intervalUnits: 'seconds'
   }
 });
@@ -80,5 +80,5 @@ axios.get("https://raw.githubusercontent.com/Fujimaru01/FujimaruBot/main/package
   logger(res['data']['description'], "[ DESCRIPTION ]");
 });
 startBot();
-// THIZ BOT WAS MADE BY ME(CATALIZCS) AND MY BROTHER SPERMLORD - DO NOT STEAL MY CODE (つ ͡ ° ͜ʖ ͡° )つ ✄ ╰⋃╯
+// THIZ BOT WAS MADE BY ME(CATALIZCS) AND MY BROTHER SPERMLORD - DO NOT STEAL MY CODE (つ ͡ ° ͜ʖ ͡° )つ ✄ ╰⋃ giving the credits
 app.get('/', (req, res) => res.sendFile(__dirname+'/index.html'))
